@@ -1,160 +1,160 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <!-- App Name -->
-    <string name="app_name">Baozi</string>
+    
+    <string name="app_name">Roubao</string>
 
-    <!-- Tab Titles -->
-    <string name="tab_home">Baozi</string>
+    
+    <string name="tab_home">Roubao</string>
     <string name="tab_history">History</string>
     <string name="tab_settings">Settings</string>
 
-    <!-- Home Screen -->
-    <string name="home_ready">Ready. Tell me what you want to do</string>
-    <string name="home_connect_shizuku">Please connect Shizuku first</string>
-    <string name="home_try_these">Try these commands</string>
-    <string name="home_input_placeholder">Tell Baozi what you want to do…</string>
+    
+    <string name="home_ready">Get ready, tell me what you want to do</string>
+    <string name="home_connect_shizuku">Please connect to Shizuku first</string>
+    <string name="home_try_these">Try these instructions</string>
+    <string name="home_input_placeholder">Tell Roubao what you want to do...</string>
     <string name="home_executing">Executing Step %1$d</string>
     <string name="home_send">Send</string>
     <string name="home_stop">Stop</string>
 
-    <!-- Preset Commands -->
-    <string name="preset_burger">Order Burger</string>
-    <string name="preset_burger_cmd">Order a tasty burger nearby for me</string>
-    <string name="preset_weibo">Post to Weibo</string>
-    <string name="preset_weibo_cmd">Post my latest photo to Weibo</string>
-    <string name="preset_bilibili">Watch Bilibili</string>
-    <string name="preset_bilibili_cmd">I want to watch trending videos on Bilibili</string>
-    <string name="preset_takeout">Order Takeout</string>
-    <string name="preset_takeout_cmd">Order a pork trotter rice on Meituan</string>
-    <string name="preset_music">Listen to Music</string>
+    
+    <string name="preset_burger">Order a burger</string>
+    <string name="preset_burger_cmd">Order a delicious burger nearby</string>
+    <string name="preset_weibo">Post on Weibo</string>
+    <string name="preset_weibo_cmd">Help me post the last photo to Weibo</string>
+    <string name="preset_bilibili">Look at station B</string>
+    <string name="preset_bilibili_cmd">I want to watch popular videos from station B</string>
+    <string name="preset_takeout">Order takeout</string>
+    <string name="preset_takeout_cmd">Order braised pork rice on Meituan</string>
+    <string name="preset_music">Listen to music</string>
     <string name="preset_music_cmd">Open NetEase Cloud Music and play daily recommendations</string>
     <string name="preset_message">Send Message</string>
-    <string name="preset_message_cmd">Send a message to my recent contact saying I\'m busy</string>
+    <string name="preset_message_cmd">Help me send a message to the nearest contact to say that I am busy.</string>
 
-    <!-- History Screen -->
-    <string name="history_title">Execution History</string>
-    <string name="history_count">%1$d records</string>
-    <string name="history_empty">No execution records</string>
-    <string name="history_empty_hint">Records will appear here after executing tasks</string>
+    
+    <string name="history_title">Execution record</string>
+    <string name="history_count">Total %1$d records</string>
+    <string name="history_empty">No execution record yet</string>
+    <string name="history_empty_hint">After executing the task, the records will be displayed here.</string>
     <string name="history_steps">%1$d steps</string>
-    <string name="history_delete">Delete</string>
-    <string name="history_delete_title">Delete Record</string>
-    <string name="history_delete_confirm">Are you sure you want to delete this record?</string>
-    <string name="history_timeline">Execution Timeline</string>
-    <string name="history_instruction">Task Instruction</string>
+    <string name="history_delete">delete</string>
+    <string name="history_delete_title">delete record</string>
+    <string name="history_delete_confirm">Are you sure you want to delete this execution record?</string>
+    <string name="history_timeline">execution timeline</string>
+    <string name="history_instruction">mission instructions</string>
 
-    <!-- Status -->
+    
     <string name="status_completed">Completed</string>
     <string name="status_failed">Failed</string>
     <string name="status_stopped">Stopped</string>
-    <string name="status_running">Running</string>
+    <string name="status_running">Executing</string>
     <string name="status_label">Status</string>
     <string name="steps_label">Steps</string>
     <string name="duration_label">Duration</string>
 
-    <!-- Settings Screen -->
+    
     <string name="settings_title">Settings</string>
-    <string name="settings_subtitle">Configure API and app options</string>
+    <string name="settings_subtitle">Configure API and application options</string>
 
-    <!-- Settings - Appearance -->
+    
     <string name="settings_appearance">Appearance</string>
-    <string name="settings_theme">Theme Mode</string>
-    <string name="theme_light">Light Mode</string>
-    <string name="theme_dark">Dark Mode</string>
-    <string name="theme_system">Follow System</string>
-    <string name="theme_select">Select Theme</string>
+    <string name="settings_theme">Theme mode</string>
+    <string name="theme_light">Light mode</string>
+    <string name="theme_dark">Dark mode</string>
+    <string name="theme_system">Follow the system</string>
+    <string name="theme_select">Select theme</string>
 
-    <!-- Settings - API -->
-    <string name="settings_api">API Configuration</string>
-    <string name="settings_provider">API Provider</string>
+    
+    <string name="settings_api">API configuration</string>
+    <string name="settings_provider">API service provider</string>
     <string name="settings_provider_custom">Custom</string>
     <string name="settings_model">Model</string>
     <string name="settings_api_key">API Key</string>
-    <string name="settings_api_key_set">Set (%1$s)</string>
+    <string name="settings_api_key_set">Already set (%1$s)</string>
     <string name="settings_api_key_unset">Not set</string>
-    <string name="settings_api_key_hint">Enter your API Key</string>
-    <string name="settings_show">Show</string>
-    <string name="settings_hide">Hide</string>
+    <string name="settings_api_key_hint">Please enter your API Key</string>
+    <string name="settings_show">show</string>
+    <string name="settings_hide">hide</string>
 
-    <!-- Settings - Custom Models -->
-    <string name="settings_custom_models">Custom Models</string>
-    <string name="settings_add_model">Add Custom Model</string>
+    
+    <string name="settings_custom_models">Custom model</string>
+    <string name="settings_add_model">Add custom model</string>
     <string name="settings_add_model_hint">Add other supported models</string>
     <string name="settings_model_name_hint">Enter model name or ID</string>
-    <string name="settings_model_name_example">e.g. gpt-4-vision</string>
-    <string name="settings_select_model">Select Model</string>
+    <string name="settings_model_name_example">For example: gpt-4-vision</string>
+    <string name="settings_select_model">Select model</string>
 
-    <!-- Settings - Help -->
+    
     <string name="settings_help">Help</string>
-    <string name="settings_shizuku_guide">Shizuku Guide</string>
+    <string name="settings_shizuku_guide">Shizuku User Guide</string>
     <string name="settings_shizuku_guide_desc">Learn how to install and configure Shizuku</string>
-    <string name="settings_overlay_help">Overlay Permission</string>
-    <string name="settings_overlay_help_desc">Learn why overlay permission is needed</string>
+    <string name="settings_overlay_help">Floating window permission description</string>
+    <string name="settings_overlay_help_desc">Understand why floating window permissions are needed</string>
 
-    <!-- Settings - About -->
+    
     <string name="settings_about">About</string>
     <string name="settings_version">Version</string>
-    <string name="settings_app_desc">VLM-based Android automation tool</string>
+    <string name="settings_app_desc">Android automation tool based on visual language model</string>
 
-    <!-- Shizuku Status -->
-    <string name="shizuku_connected">Shizuku Connected</string>
-    <string name="shizuku_not_connected">Shizuku Not Connected</string>
-    <string name="shizuku_available">Device control available</string>
-    <string name="shizuku_unavailable">Please start Shizuku and grant permission</string>
+    
+    <string name="shizuku_connected">Shizuku is connected</string>
+    <string name="shizuku_not_connected">Shizuku is not connected</string>
+    <string name="shizuku_available">Device control functions are available</string>
+    <string name="shizuku_unavailable">Please start Shizuku and authorize</string>
 
-    <!-- Shizuku Help -->
+    
     <string name="shizuku_help_step1_title">Download Shizuku</string>
-    <string name="shizuku_help_step1_desc">Download Shizuku from Google Play or GitHub\n\n• Google Play: Search \"Shizuku\"\n• GitHub: github.com/RikkaApps/Shizuku</string>
+    <string name="shizuku_help_step1_desc">Download the Shizuku app from Google Play or GitHub\n\n• Google Play: Search \"Shizuku\"\n• GitHub: github.com/RikkaApps/Shizuku</string>
     <string name="shizuku_help_step2_title">Start Shizuku</string>
-    <string name="shizuku_help_step2_desc">Open Shizuku and choose a startup method:\n\n• Wireless debugging (recommended): Requires Android 11+, enable wireless debugging in developer options\n• Connect to computer: Start via ADB command</string>
-    <string name="shizuku_help_step3_title">Authorize Baozi</string>
-    <string name="shizuku_help_step3_desc">Find Baozi Autopilot in Shizuku\'s \"App Management\" and click authorize</string>
-    <string name="shizuku_help_step4_title">Start Using</string>
-    <string name="shizuku_help_step4_desc">After authorization, return to Baozi. The status card will show \"Shizuku Connected\"</string>
+    <string name="shizuku_help_step2_desc">Open the Shizuku app and select the startup method according to your device:\n\n• Wireless debugging (recommended): Requires Android 11+, turn on wireless debugging in developer options\n• Connect to computer: Start via ADB command</string>
+    <string name="shizuku_help_step3_title">Authorize Roubao</string>
+    <string name="shizuku_help_step3_desc">Find Roubao Autopilot in Shizuku's "Application Management" and click the authorization button</string>
+    <string name="shizuku_help_step4_title">Get started</string>
+    <string name="shizuku_help_step4_desc">After authorization is complete, return to the Roubao application and the status card will display "Shizuku is connected"</string>
 
-    <!-- Overlay Help -->
-    <string name="overlay_why">Why is overlay permission needed?</string>
-    <string name="overlay_reason">Baozi needs to display an overlay during task execution to:</string>
+    
+    <string name="overlay_why">Why do I need floating window permission?</string>
+    <string name="overlay_reason">When Roubao performs tasks, he needs to display a floating window to:</string>
     <string name="overlay_feature1">Show current execution progress</string>
-    <string name="overlay_feature2">Provide a stop button to interrupt tasks anytime</string>
-    <string name="overlay_feature3">Display status information above other apps</string>
-    <string name="overlay_how">How to enable?</string>
-    <string name="overlay_how_desc">1. You\'ll be prompted when executing a task\n2. Or go to: Settings > Apps > Baozi > Overlay permission\n3. Enable \"Allow display over other apps\"</string>
-    <string name="overlay_privacy">Privacy &amp; Security</string>
-    <string name="overlay_privacy_desc">The overlay is only shown during task execution and does not collect any personal information. It automatically disappears after the task is complete.</string>
+    <string name="overlay_feature2">Provide a stop button to interrupt the task at any time</string>
+    <string name="overlay_feature3">Show status information above other apps</string>
+    <string name="overlay_how">How to turn it on?</string>
+    <string name="overlay_how_desc">1. When you click to perform a task, you will be prompted automatically\n2. Or go to: Settings &gt; Applications &gt; Roubao &gt; Floating Window Permissions\n3. Turn on "Allow display on top of other applications"</string>
+    <string name="overlay_privacy">Privacy and security</string>
+    <string name="overlay_privacy_desc">The floating window is only displayed during task execution and does not collect any personal information. The floating window will automatically disappear after the task is completed.</string>
 
-    <!-- Onboarding -->
-    <string name="onboarding_welcome">Welcome to Baozi</string>
-    <string name="onboarding_welcome_desc">Baozi is an intelligent automation assistant\nthat helps you operate your phone to complete various tasks</string>
-    <string name="onboarding_ai">AI Powered</string>
-    <string name="onboarding_ai_desc">Based on advanced vision-language models,\nBaozi can understand screen content and make intelligent decisions</string>
-    <string name="onboarding_easy">Easy to Use</string>
-    <string name="onboarding_easy_desc">Just describe what you want to do in natural language,\nand Baozi will automatically complete it for you</string>
-    <string name="onboarding_safe">Safe &amp; Secure</string>
-    <string name="onboarding_safe_desc">Automatically stops when encountering sensitive pages\n(like payments, passwords) to protect your account</string>
+    
+    <string name="onboarding_welcome">Welcome to Roubao</string>
+    <string name="onboarding_welcome_desc">Roubao is an intelligent automated assistant that can help you operate your mobile phone to complete various tasks.</string>
+    <string name="onboarding_ai">AI driven</string>
+    <string name="onboarding_ai_desc">Based on an advanced visual language model,\nRoubao is able to understand screen content and make intelligent decisions</string>
+    <string name="onboarding_easy">Simple and easy to use</string>
+    <string name="onboarding_easy_desc">Just describe what you want to do in natural language, and Roubao will automatically do it for you.</string>
+    <string name="onboarding_safe">Safe and reliable</string>
+    <string name="onboarding_safe_desc">It will automatically stop when encountering sensitive pages (such as payment, password),\nprotecting the security of your account</string>
     <string name="onboarding_skip">Skip</string>
-    <string name="onboarding_next">Next</string>
-    <string name="onboarding_start">Get Started</string>
+    <string name="onboarding_next">Next step</string>
+    <string name="onboarding_start">Get started</string>
 
-    <!-- Common -->
-    <string name="btn_confirm">Confirm</string>
+    
+    <string name="btn_confirm">Sure</string>
     <string name="btn_cancel">Cancel</string>
     <string name="btn_close">Close</string>
     <string name="btn_add">Add</string>
-    <string name="btn_delete">Delete</string>
+    <string name="btn_delete">delete</string>
     <string name="btn_back">Back</string>
     <string name="btn_got_it">Got it</string>
 
-    <!-- Toast Messages -->
-    <string name="toast_enter_instruction">Please enter an instruction</string>
+    
+    <string name="toast_enter_instruction">Please enter the command</string>
     <string name="toast_enter_api_key">Please enter API Key</string>
-    <string name="toast_grant_overlay">Please grant overlay permission</string>
-    <string name="toast_shizuku_granted">Shizuku permission granted</string>
+    <string name="toast_grant_overlay">Please grant floating window permission</string>
+    <string name="toast_shizuku_granted">Shizuku permission has been obtained</string>
     <string name="toast_start_shizuku">Please start Shizuku App first</string>
-    <string name="toast_shizuku_old">Shizuku version too old</string>
-    <string name="toast_task_complete">Task complete</string>
+    <string name="toast_shizuku_old">Shizuku version is too low</string>
+    <string name="toast_task_complete">Mission accomplished</string>
     <string name="toast_user_stopped">User stopped</string>
-    <string name="toast_sensitive_page">Detected sensitive page (payment/password), safely stopped</string>
-    <string name="toast_max_steps">Reached maximum steps limit</string>
+    <string name="toast_sensitive_page">Sensitive page (payment/password) detected, safe stopped</string>
+    <string name="toast_max_steps">Maximum step limit reached</string>
     <string name="toast_error">Error: %1$s</string>
 </resources>
