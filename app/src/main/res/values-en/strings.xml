@@ -108,7 +108,6 @@
     <string name="shizuku_help_step2_title">Start Shizuku</string>
     <string name="shizuku_help_step2_desc">Open the Shizuku app and select the startup method according to your device:\n\n• Wireless debugging (recommended): Requires Android 11+, turn on wireless debugging in developer options\n• Connect to computer: Start via ADB command</string>
     <string name="shizuku_help_step3_title">Authorize Roubao</string>
-    <string name="shizuku_help_step3_desc">Find Roubao Autopilot in Shizuku's "Application Management" and click the authorization button</string>
     <string name="shizuku_help_step4_title">Get started</string>
     <string name="shizuku_help_step4_desc">After authorization is complete, return to the Roubao application and the status card will display "Shizuku is connected"</string>
 
@@ -157,4 +156,5 @@
     <string name="toast_sensitive_page">Sensitive page (payment/password) detected, safe stopped</string>
     <string name="toast_max_steps">Maximum step limit reached</string>
     <string name="toast_error">Error: %1$s</string>
+    <string name="shizuku_help_step3_desc">Find Roubao in Shizuku and authorize</string>
 </resources>
